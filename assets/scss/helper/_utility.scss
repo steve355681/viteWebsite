@@ -1,31 +1,3 @@
-/* 標籤基本樣式 */
-*, *::before, *::after{
-	box-sizing: border-box;
-}
-
-img{
-	vertical-align: middle;
-	max-width: 100%;
-	height: auto;
-}
-
-a{
-	text-decoration: none;
-	color: inherit;
-	text-decoration: none;	
-	/* text-underline-offset: 4px;
-	display: block; */
-}
-
-body{
-	font-family: "Noto Sans TC", sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.05em;
-	color: $neutral-900;
-	font-weight: 500;
-}
-
 /* 通用樣式 */
 .container{
 	max-width: 1320px;
@@ -615,3 +587,6 @@ body{
 	gap: 8px;
 }
 
+.border-none{
+	border: none;
+}

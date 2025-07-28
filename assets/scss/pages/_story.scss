@@ -8,7 +8,8 @@
 
 @media(max-width: 767px){
 	.container-brand-story{
-	max-width: 351px;
+	max-width: 100%;
+	// max-width: 351px;
 		/* max-width: calc(351px + 2*32px); */
 	/* max-width: calc(351px + 2*0px); */
 	/* padding-right: 6px;
@@ -95,11 +96,11 @@
 
 
 .section-lined{
-	border-bottom: 1px solid var(--neutral-300);
+	border-bottom: 1px solid $neutral-300;
 }
 
 .brand-history{
-	border-left: 1px solid var(--neutral-900);
+	border-left: 1px solid $neutral-900;
 	padding-left: 8px;
 
 }
@@ -111,7 +112,7 @@
 
 .brand-vision{
 	padding-left: 12px;
-	border-left: 3px solid var(--neutral-300);
+	border-left: 3px solid $neutral-300;
 }
 
 .bi{
@@ -125,8 +126,9 @@
 }
 
 .brand-story a{
-	color: var(--primary-400);
+	color: $primary-400;
 	text-underline-offset: 4px;
 	display: block;
     text-decoration: underline; 	
 }
+
